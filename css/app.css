@@ -595,8 +595,9 @@ footer nav div {
     }
 
     footer nav {
-        display: block;
-        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
         height: auto;
         margin-bottom: 64px;
     }
