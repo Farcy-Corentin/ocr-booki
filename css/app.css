@@ -312,7 +312,7 @@ header nav .nav-link:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 8px 16px 0 16px;
+    padding: 20px 16px 15px 16px;
     width: 65%;
 }
 
@@ -357,21 +357,25 @@ header nav .nav-link:hover {
     border-radius: 20px;
 }
 
-.container-large .activity-card img {
+.activity-card a {
+    height: 100%;
+}
+
+.container-large .activity-card a img {
     width: 100%;
     border-radius: 16px 16px 0 0;
-    height: 100%;
+    height: 82%;
     object-fit: cover;
 }
 
-.container-medium .activity-card img {
+.container-medium .activity-card a img {
     width: 100%;
     border-radius: 16px 16px 0 0;
     height: calc(100% - 72px);
     object-fit: cover;
 }
 
-.container-small .activity-card img {
+.container-small .activity-card a img {
     width: 100%;
     border-radius: 16px 16px 0 0;
     height: calc(100% - 72px);
@@ -394,7 +398,7 @@ header nav .nav-link:hover {
     height: 50%;
 }
 
-.activity-card h3 {
+.activity-card a h3 {
     padding: 24px 20px 19px 20px;
 }
 
@@ -423,6 +427,10 @@ footer nav div {
         padding: 22px;
     }
 
+    header .container {
+        padding: 0 22px;
+    }
+
     .filter {
         display: block;
         align-items: center;
@@ -433,6 +441,10 @@ footer nav div {
         display: flex;
         flex-direction: column-reverse;
         padding: 0;
+    }
+
+    .accommodation .accommodation-content {
+        padding: 2px 10px;
     }
 
     .popular {
@@ -493,15 +505,15 @@ footer nav div {
         height: 56%;
     }
 
-    .container-large .container-medium .activity-card img {
+    .container-large .container-medium .activity-card a img {
         height: 75%;
     }
 
-    .container-large .container-small .activity-card img {
+    .container-large .container-small .activity-card a img {
         height: 60%;
     }
 
-    .activity-card h3 {
+    .activity-card a h3 {
         font-size: 18px;
         padding: 12px 10px 9px 10px;
     }
@@ -628,7 +640,7 @@ footer nav div {
         border-radius: 20px;
     }
 
-    .container-large .activity-card img {
+    .container-large .activity-card a img {
         max-height: 200px;
     }
 
