@@ -450,6 +450,7 @@ footer nav div {
 
     .accommodations {
         gap: 16px;
+        margin-bottom: 20px;
     }
 
     .accommodation-search-result {
